@@ -1,5 +1,5 @@
-var hasTransitions = require('has-transitions');
-var emitter = require('css-emitter');
+var hasTransitions = require('anthonyshort-has-transitions');
+var emitter = require('anthonyshort-css-emitter');
 
 function afterTransition(el, callback) {
   if(hasTransitions(el)) {
